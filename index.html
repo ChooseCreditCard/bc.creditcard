@@ -4,22 +4,22 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-  <title>bc.Creditcard – How Crypto Credit-Card Payments Work</title>
-  <meta name="description" content="Understand how crypto-linked credit cards work: on-ramp/off-ramp, conversion, fees, rewards and risks. Independent overview of crypto card payments." />
+  <title>Bc.Creditcard – Billing Cycles, Statements & Due Dates Explained</title>
+  <meta name="description" content="Understand how credit-card billing cycles work: statement periods, due dates, grace periods, interest calculation and what happens if you only pay the minimum. Neutral, educational overview." />
   <meta name="robots" content="index,follow" />
   <link rel="canonical" href="https://bc.creditcard/" />
 
   <!-- Open Graph -->
-  <meta property="og:title" content="bc.Creditcard – Crypto Credit-Card Payments Explained" />
-  <meta property="og:description" content="Learn how crypto credit cards convert your coins to fiat at the point of sale, what fees apply and how rewards are calculated." />
+  <meta property="og:title" content="Bc.Creditcard – Billing Cycles & Statements Explained" />
+  <meta property="og:description" content="How billing cycles, statement dates, due dates and grace periods really work on credit cards – and why they matter for interest and credit scores." />
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://bc.creditcard/" />
   <meta property="og:image" content="https://choose.creditcard/preview.png?utm_source=bc.creditcard&utm_medium=referral&utm_campaign=og_image" />
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="bc.Creditcard – Crypto Credit-Card Payments Explained" />
-  <meta name="twitter:description" content="Independent explanation of crypto-linked credit cards, conversion paths, fees and tax considerations." />
+  <meta name="twitter:title" content="Bc.Creditcard – Billing Cycles & Statements Explained" />
+  <meta name="twitter:description" content="Neutral explainer of credit-card billing cycles: statement periods, due dates, grace periods and interest accrual." />
   <meta name="twitter:image" content="https://choose.creditcard/preview.png?utm_source=bc.creditcard&utm_medium=referral&utm_campaign=twitter_image" />
 
   <!-- GA4 -->
@@ -31,185 +31,203 @@
     gtag('config', 'G-64FE63JQ3H');
   </script>
 
-  <!-- Tailwind for utility classes -->
+  <!-- Tailwind -->
   <script src="https://cdn.tailwindcss.com"></script>
 
-  <!-- Your shared minisite styles -->
+  <!-- Shared minisite CSS -->
   <link rel="stylesheet" href="./styles.css" />
 </head>
+
 <body class="bg-slate-950 text-slate-100">
+  <!-- HEADER -->
   <header class="site-header">
     <div class="nav-inner max-w-6xl">
       <div class="brand">
         <div class="cc-logo">CC</div>
         <div class="brand-text">
-          <div class="brand-title">bc.Creditcard</div>
-          <div class="brand-subtitle">Crypto Credit-Card Payments Explained</div>
+          <div class="brand-title">Bc.Creditcard</div>
+          <div class="brand-subtitle">Billing Cycles & Statements</div>
         </div>
       </div>
-      <nav class="nav-links" aria-label="Page navigation">
+      <nav class="nav-links">
         <a href="#overview">Overview</a>
-        <a href="#mechanics">How It Works</a>
-        <a href="#compare">Compare</a>
+        <a href="#timeline">Timeline</a>
+        <a href="#interest">Interest</a>
       </nav>
     </div>
   </header>
 
   <main class="cc-page">
-    <!-- Breadcrumb -->
+    <!-- BREADCRUMB -->
     <div class="cc-breadcrumb">
       <a href="https://choose.creditcard/?utm_source=bc.creditcard&utm_medium=referral&utm_campaign=breadcrumb">Home</a>
       &nbsp;›&nbsp;
-      bc.Creditcard
+      Bc.Creditcard
     </div>
 
-    <!-- Hero -->
+    <!-- HERO -->
     <section class="hero">
       <div class="hero-content">
-        <h1>How Crypto Credit-Card Payments Actually Work</h1>
+        <h1>How Credit-Card Billing Cycles Actually Work</h1>
         <p class="hero-lead">
-          Crypto credit cards promise “spend your coins anywhere”. Here’s what really happens when you tap at the terminal — from conversion and spreads to rewards and tax questions.
+          Every card has a billing cycle: a repeating window where your transactions are grouped into a statement,
+          given a due date and – if you don’t pay in full – start generating interest. This page explains that engine.
         </p>
-        <a class="cta" href="https://choose.creditcard/?utm_source=bc.creditcard&utm_medium=referral&utm_campaign=hero_cta">
-          Compare crypto-friendly credit cards
-        </a>
+        <div class="flex flex-wrap gap-3 mt-4">
+          <a class="cta" href="https://choose.creditcard/?utm_source=bc.creditcard&utm_medium=referral&utm_campaign=hero_cta_main">
+            Compare cards at Choose.Creditcard
+          </a>
+          <a class="cta-secondary" href="https://choose.creditcard/guides/?utm_source=bc.creditcard&utm_medium=referral&utm_campaign=hero_cta_guides">
+            Read credit-card guides
+          </a>
+        </div>
       </div>
     </section>
 
-    <!-- Content sections -->
+    <!-- OVERVIEW -->
     <section id="overview" class="section">
-      <h2>What is a Crypto Credit Card?</h2>
-      <p>A crypto credit card looks and behaves like a normal Visa, Mastercard or similar, but is connected to a crypto wallet or exchange account. At the point of sale, your crypto is converted to fiat currency, which is used to settle the transaction with the card network.</p>
-      <p>Most products are not truly “on-chain at checkout”. Instead, the issuer or partner exchange sells a small amount of your crypto in real time or in batched lots, then uses fiat rails for settlement.</p>
+      <h2>What Is a Billing Cycle?</h2>
+      <p>
+        A billing cycle is the repeating period (for example, 28–31 days) during which your card issuer
+        groups purchases, fees and credits into a single statement. At the end of that period, the issuer
+        generates your statement balance and sets a due date.
+      </p>
+      <p class="mt-3">
+        Understanding the cycle matters because <strong>interest, late fees and even credit-score signals</strong>
+        are all tied to how you behave between the statement date and the due date.
+      </p>
+
+      <ul class="list-disc pl-5 mt-4 space-y-2">
+        <li><strong>Statement date:</strong> when the cycle closes and your balance is “frozen” for that period.</li>
+        <li><strong>Due date:</strong> last day to pay at least the minimum without being late.</li>
+        <li><strong>Grace period:</strong> time between statement date and due date where you can pay in full and avoid interest on purchases.</li>
+      </ul>
     </section>
 
-    <section id="mechanics" class="section">
-      <h2>How CryptoPay Transactions Flow</h2>
-      <p>When you tap or insert the card, the terminal sends a standard authorization request. Behind the scenes, the issuer or partner platform checks your crypto balance, reserves funds, converts to fiat and approves or declines the transaction.</p>
-      <p>Conversion may use a spot-rate at the time of purchase, plus a spread and possible extra fees. Some products convert proactively (preload), while others convert “just in time” for each transaction.</p>
-    </section>
+    <!-- BILLING TIMELINE -->
+    <section id="timeline" class="section">
+      <h2>Typical Billing-Cycle Timeline</h2>
+      <p>
+        While details vary by issuer and country, most credit-card products follow a similar pattern:
+      </p>
 
-    <section class="section">
-      <h2>Fees, Spreads and Hidden Costs</h2>
-      <p>Crypto cards can include exchange spreads, FX margins, network fees and issuer fees. Many marketing pages highlight rewards but downplay spreads on conversion, which can easily exceed 2–3% depending on liquidity and volatility.</p>
-      <p>Always read the fee schedule: look for explicit crypto-conversion fees, FX fees for foreign transactions, ATM withdrawal fees and any additional service charges from the linked exchange.</p>
-    </section>
-
-    <section class="section">
-      <h2>Rewards, Cashbacks and Token Incentives</h2>
-      <p>Rewards may be paid as cash, points or native platform tokens. Some issuers offer higher rates when you stake a token or hold a minimum balance, but this concentrates risk in a single ecosystem.</p>
-      <p>Compare rewards after fees: a 3% token reward is less attractive if you are losing 2–3% on spreads and FX every time you use the card.</p>
-    </section>
-
-    <section class="section">
-      <h2>Risk, Volatility and Tax Considerations</h2>
-      <p>Every time you convert crypto to fiat you may trigger a taxable event in your jurisdiction. That means daily spending could generate a large number of small taxable disposals.</p>
-      <p>Volatility can also work against you. If the market moves sharply between loading and spending, the real purchasing power of your holdings changes — regardless of the headline reward rate.</p>
-    </section>
-
-    <!-- Comparison block -->
-    <section id="compare" class="section">
-      <h2>Compare Crypto Credit-Card Features</h2>
-      <div class="table-wrap">
+      <div class="table-wrap mt-4">
         <table class="table">
           <thead>
             <tr>
-              <th>Feature</th>
-              <th>What to Look For</th>
-              <th>Why It Matters</th>
+              <th>Stage</th>
+              <th>What Happens</th>
+              <th>What to Watch</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td>Conversion Model</td>
-              <td>Real-time vs. preloaded, clear explanation</td>
-              <td>Determines when spreads and rates are locked in.</td>
+              <td>Day 1–30</td>
+              <td>Purchases, refunds and some fees post to your account.</td>
+              <td>Spending here will appear on the next statement.</td>
             </tr>
             <tr>
-              <td>Fees &amp; Spreads</td>
-              <td>Transparent published schedule, no hidden surcharges</td>
-              <td>Small spreads can eat most of the advertised rewards.</td>
+              <td>Statement date</td>
+              <td>Issuer totals your balance and generates the statement.</td>
+              <td>Sets the amount due and kicks off the grace period.</td>
             </tr>
             <tr>
-              <td>Rewards Structure</td>
-              <td>Cash vs. points vs. tokens, caps and tiers</td>
-              <td>Impacts the real value of each transaction you make.</td>
+              <td>Grace period</td>
+              <td>You can pay the full statement balance with no interest on new purchases (if you started in full).</td>
+              <td>Paying in full keeps purchases interest-free on many cards.</td>
             </tr>
             <tr>
-              <td>Supported Assets</td>
-              <td>Range of coins, stablecoins, and limits per asset</td>
-              <td>More choice can mean better stability and flexibility.</td>
+              <td>Due date</td>
+              <td>Minimum payment must be received to avoid a late mark.</td>
+              <td>Late payments can trigger fees and negative credit reporting.</td>
             </tr>
             <tr>
-              <td>Compliance &amp; Reporting</td>
-              <td>Statements, tax reports, export options</td>
-              <td>Helps you document conversions and manage obligations.</td>
+              <td>After due date</td>
+              <td>Unpaid portions start or continue to accrue interest.</td>
+              <td>Carrying balances over multiple cycles increases cost.</td>
             </tr>
           </tbody>
         </table>
       </div>
-      <p class="small">
-        For live product-by-product comparisons, visit
-        <a href="https://choose.creditcard/?utm_source=bc.creditcard&utm_medium=referral&utm_campaign=comparison_section">
-          Choose.Creditcard
-        </a>.
+
+      <p class="small mt-3">
+        Some issuers vary the exact number of days in a cycle. Always check your statement for the precise dates.
       </p>
     </section>
 
-    <!-- Cluster links -->
+    <!-- INTEREST & GRACE PERIODS -->
+    <section id="interest" class="section">
+      <h2>Interest, Grace Periods & Minimum Payments</h2>
+      <p>
+        If you pay the <strong>full statement balance</strong> by the due date, many cards will not charge interest
+        on standard purchases. This is the effect of the grace period. But once you start carrying a balance,
+        future transactions may start accruing interest immediately.
+      </p>
+
+      <ul class="list-disc pl-5 mt-3 space-y-2">
+        <li><strong>Minimum payment:</strong> the lowest amount you must pay to stay current, but usually keeps most of the balance revolving.</li>
+        <li><strong>Revolving balance:</strong> any unpaid amount carried to the next cycle, which can accrue interest daily.</li>
+        <li><strong>Loss of grace:</strong> if you do not pay in full, some products remove the interest-free period on new purchases.</li>
+      </ul>
+
+      <p class="mt-3">
+        Billing cycles also interact with your <strong>credit-utilisation ratio</strong> — the percentage of available
+        credit that is in use when the statement closes. High utilisation on the statement date can be a negative
+        signal in many credit-scoring models, even if you pay down the balance shortly after.
+      </p>
+    </section>
+
+    <!-- RELATED GUIDES / MINISITES -->
     <section class="section">
-      <h2>Explore Related Payment Technologies</h2>
+      <h2>Explore Related Topics</h2>
       <div class="cluster-grid">
-        <a class="cluster-card" href="https://bitcoinpay.creditcard/?utm_source=bc.creditcard&utm_medium=referral&utm_campaign=cluster_bitcoinpay">
-          <h3>BitcoinPay.Creditcard</h3>
-          <p>Bitcoin card payments and settlement patterns.</p>
+        <a class="cluster-card" href="https://apr.creditcard/?utm_source=bc.creditcard&utm_medium=referral&utm_campaign=cluster_apr">
+          <h3>Apr.Creditcard</h3>
+          <p>Interest rates, compounding and how APR is applied to revolving balances.</p>
         </a>
-        <a class="cluster-card" href="https://btcpay.creditcard/?utm_source=bc.creditcard&utm_medium=referral&utm_campaign=cluster_btcpay">
-          <h3>BTCPay.Creditcard</h3>
-          <p>Merchant-side BTC processing and gateways.</p>
+        <a class="cluster-card" href="https://creditscore.creditcard/?utm_source=bc.creditcard&utm_medium=referral&utm_campaign=cluster_creditscore">
+          <h3>CreditScore.Creditcard</h3>
+          <p>How payment history and statement balances affect credit scores.</p>
         </a>
-        <a class="cluster-card" href="https://tokens.creditcard/?utm_source=bc.creditcard&utm_medium=referral&utm_campaign=cluster_tokens">
-          <h3>Tokens.Creditcard</h3>
-          <p>Tokenized rewards, governance tokens and incentives.</p>
+        <a class="cluster-card" href="https://limits.creditcard/?utm_source=bc.creditcard&utm_medium=referral&utm_campaign=cluster_limits">
+          <h3>Limits.Creditcard</h3>
+          <p>Credit limits, utilisation and requests for increases or reductions.</p>
         </a>
-        <a class="cluster-card" href="https://defipay.creditcard/?utm_source=bc.creditcard&utm_medium=referral&utm_campaign=cluster_defipay">
-          <h3>DefiPay.Creditcard</h3>
-          <p>DeFi-linked card products and yield routing.</p>
-        </a>
-        <a class="cluster-card" href="https://virtualpay.creditcard/?utm_source=bc.creditcard&utm_medium=referral&utm_campaign=cluster_virtualpay">
-          <h3>VirtualPay.Creditcard</h3>
-          <p>Virtual cards and wallet-based payment flows.</p>
+        <a class="cluster-card" href="https://cashbacks.creditcard/?utm_source=bc.creditcard&utm_medium=referral&utm_campaign=cluster_cashbacks">
+          <h3>Cashbacks.Creditcard</h3>
+          <p>How rewards interact with carrying a balance and interest costs.</p>
         </a>
       </div>
     </section>
 
-    <!-- Collection section -->
+    <!-- COLLECTION + HUB LINK -->
     <section class="section">
       <h2>Part of The CreditCard Collection</h2>
       <p class="small">
-        bc.Creditcard is one spoke in <strong>The CreditCard Collection</strong> — a network of focused microsites operated by ronarn AS. Each site explains a single payment concept in clear language and then connects you to independent comparison tools.
+        Bc.Creditcard is part of <strong>The CreditCard Collection</strong> — a neutral, documentation-based network
+        operated by ronarn AS. Each minisite focuses on one moving part of credit-card usage so you can understand
+        the mechanics before comparing products.
       </p>
       <p class="small">
-        We do not issue cards. We summarize documentation, highlight trade-offs and link to external providers where you can read the full terms yourself.
-      </p>
-      <p class="small">
-        This site is informational only and does not provide financial, investment or tax advice. Always review official documentation and consider seeking independent advice if needed.
+        Nothing here is personal financial advice. Rules and practices differ between issuers and countries.
+        Always check your own agreement and statements for exact terms.
       </p>
 
-      <!-- Crypto & Web3 hub snippet -->
-      <div class="hub-link">
+      <!-- Root hub snippet (mapping → root) -->
+      <div class="hub-link mt-4">
         <a href="https://choose.creditcard/?utm_source=bc.creditcard&utm_medium=referral&utm_campaign=minisite_to_hub"
-           class="text-sm text-slate-600 hover:text-slate-900">
-          Learn more at the Choose.Creditcard
+           class="text-sm text-slate-300 hover:text-slate-50">
+          Explore all hubs at Choose.Creditcard
         </a>
       </div>
     </section>
 
-    <!-- Bottom CTA -->
+    <!-- BUNN-CTA -->
     <section class="section">
-      <h2>Ready to Compare Crypto-Friendly Cards?</h2>
+      <h2>Ready to Look at Real Cards?</h2>
       <p class="small">
-        Use bc.Creditcard to understand the mechanics — then head over to the main comparison hub to see which cards currently support crypto, stablecoins or on-ramp/off-ramp integrations.
+        Use Bc.Creditcard to understand billing-cycle mechanics — then move to the main hub to see how real-world
+        card products differ on APR, fees, limits and features.
       </p>
       <a class="cta" href="https://choose.creditcard/?utm_source=bc.creditcard&utm_medium=referral&utm_campaign=bottom_cta">
         Go to Choose.Creditcard
@@ -217,6 +235,7 @@
     </section>
   </main>
 
+  <!-- FOOTER -->
   <footer class="mini-footer">
     <p class="mini-footer-main">© 2025 The CreditCard Collection — ronarn AS</p>
     <p class="mini-footer-contact">
